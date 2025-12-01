@@ -27,6 +27,10 @@
     {
       "group": "AI Assistant",
       "pages": ["ai/chat", "ai/reporting"]
+    },
+    {
+      "group": "Testing",
+      "pages": ["test-media"]
     }
   ],
   "footerSocials": {

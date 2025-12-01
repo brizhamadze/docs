@@ -1,0 +1,37 @@
+---
+title: 'Media Test Page'
+description: 'Testing images and videos in Mintlify.'
+---
+
+# Image Test
+
+Here is an image using standard Markdown:
+
+![Hero Image](/images/hero-light.png)
+
+Here is an image using the `<Frame>` component (Mintlify specific):
+
+<Frame caption="This is a captioned image">
+  <img src="/images/hero-light.png" alt="Hero Light" />
+</Frame>
+
+# Video Test
+
+Here is a YouTube video embed:
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+  title="YouTube video player"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
+Here is a placeholder for a local video:
+
+<div className="p-4 border rounded bg-gray-100 dark:bg-gray-800 text-center">
+  Video Placeholder
+</div>
+
