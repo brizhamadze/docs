@@ -30,7 +30,7 @@
     },
     {
       "group": "ტუტორიალები",
-      "pages": ["tutorials/authorization"]
+      "pages": ["tutorials/authorization", "tutorials/upload-dicom"]
     },
     {
       "group": "Testing",
