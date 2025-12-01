@@ -13,7 +13,7 @@
   },
   "navigation": [
     {
-      "group": "Getting Started",
+      "group": "დაწყება",
       "pages": ["getting-started/introduction", "getting-started/spaces"]
     },
     {
@@ -21,15 +21,15 @@
       "pages": ["patients/folders", "patients/uploading"]
     },
     {
-      "group": "Viewing Documents",
+      "group": "დათვალიერება",
       "pages": ["viewing/documents", "viewing/dicom"]
     },
     {
-      "group": "AI Assistant",
+      "group": "AI ასისტენტი",
       "pages": ["ai/chat", "ai/reporting"]
     },
     {
-      "group": "ტუტორიალები",
+      "group": "ვიდეო გაკვეთილები",
       "pages": ["tutorials/authorization", "tutorials/upload-dicom"]
     },
     {
