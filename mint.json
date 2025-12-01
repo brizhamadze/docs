@@ -17,7 +17,7 @@
       "pages": ["getting-started/introduction", "getting-started/spaces"]
     },
     {
-      "group": "Patient Management",
+      "group": "პაციენტების მართვა",
       "pages": ["patients/folders", "patients/uploading"]
     },
     {
