@@ -29,6 +29,10 @@
       "pages": ["ai/chat", "ai/reporting"]
     },
     {
+      "group": "ტუტორიალები",
+      "pages": ["tutorials/authorization"]
+    },
+    {
       "group": "Testing",
       "pages": ["test-media"]
     }
