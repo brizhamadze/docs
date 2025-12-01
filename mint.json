@@ -44,8 +44,7 @@
       "group": "ვიდეო გაკვეთილები",
       "pages": [
         "tutorials/authorization",
-        "tutorials/upload-dicom",
-        "tutorials/სივრცის-სურათის-შეცვლა"
+        "tutorials/upload-dicom"
       ]
     },
     {
