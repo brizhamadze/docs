@@ -13,35 +13,101 @@
   },
   "navigation": [
     {
-      "group": "დაწყება",
+      "group": "🚀 დაწყება",
       "pages": [
         "getting-started/introduction",
+        "getting-started/login-dashboard",
         "getting-started/spaces"
       ]
     },
     {
-      "group": "პაციენტების მართვა",
+      "group": "👤 ავტორიზაცია და მომხმარებლები",
+      "pages": [
+        "auth/authorization",
+        "auth/space-management",
+        "auth/user-management",
+        "auth/permissions"
+      ]
+    },
+    {
+      "group": "📁 პაციენტების მართვა",
       "pages": [
         "patients/folders",
-        "patients/uploading"
+        "patients/navigation",
+        "patients/uploading",
+        "patients/document-actions"
       ]
     },
     {
-      "group": "დათვალიერება",
+      "group": "🩺 DICOM გამოსახულებები",
       "pages": [
-        "viewing/documents",
-        "viewing/dicom"
+        "dicom/uploading",
+        "dicom/viewing",
+        "dicom/viewer-tools",
+        "dicom/advanced-features"
       ]
     },
     {
-      "group": "AI ასისტენტი",
+      "group": "📝 დოკუმენტები და რედაქტირება",
       "pages": [
+        "documents/editing-reports",
+        "documents/quick-notes",
+        "documents/file-upload"
+      ]
+    },
+    {
+      "group": "🤖 AI ასისტენტი",
+      "pages": [
+        "ai/overview",
         "ai/chat",
+        "ai/voice-commands",
+        "ai/audio-transcription",
+        "ai/workflows",
+        "ai/custom-prompts",
         "ai/reporting"
       ]
     },
     {
-      "group": "ვიდეო გაკვეთილები",
+      "group": "🎥 სხვა ფუნქციები",
+      "pages": [
+        "features/video-consultation",
+        "features/personalization",
+        "features/billing"
+      ]
+    },
+    {
+      "group": "📚 ვიდეო გაკვეთილები",
+      "pages": [
+        "tutorials/overview",
+        "tutorials/beginner",
+        "tutorials/intermediate",
+        "tutorials/advanced"
+      ]
+    },
+    {
+      "group": "🎬 დამწყებთათვის",
+      "pages": [
+        "video-tutorials/login-dashboard",
+        "video-tutorials/upload-view-dicom",
+        "video-tutorials/edit-documents"
+      ]
+    },
+    {
+      "group": "🎬 საშუალო დონე",
+      "pages": [
+        "video-tutorials/ai-chat-voice",
+        "video-tutorials/settings-personalization",
+        "video-tutorials/user-billing-management"
+      ]
+    },
+    {
+      "group": "🎬 მოწინავე",
+      "pages": [
+        "video-tutorials/ai-workflows"
+      ]
+    },
+    {
+      "group": "📖 არქივი (ძველი ვიდეოები)",
       "pages": [
         "tutorials/authorization",
         "tutorials/upload-dicom",
@@ -49,12 +115,6 @@
         "tutorials/სივრცის-სურათის-შეცვლა",
         "tutorials/მომხმარებლის-სივრცეში-დამატება",
         "tutorials/თემის-შეცვლა"
-      ]
-    },
-    {
-      "group": "Testing",
-      "pages": [
-        "test-media"
       ]
     }
   ],
