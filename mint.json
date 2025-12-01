@@ -14,27 +14,45 @@
   "navigation": [
     {
       "group": "დაწყება",
-      "pages": ["getting-started/introduction", "getting-started/spaces"]
+      "pages": [
+        "getting-started/introduction",
+        "getting-started/spaces"
+      ]
     },
     {
       "group": "პაციენტების მართვა",
-      "pages": ["patients/folders", "patients/uploading"]
+      "pages": [
+        "patients/folders",
+        "patients/uploading"
+      ]
     },
     {
       "group": "დათვალიერება",
-      "pages": ["viewing/documents", "viewing/dicom"]
+      "pages": [
+        "viewing/documents",
+        "viewing/dicom"
+      ]
     },
     {
       "group": "AI ასისტენტი",
-      "pages": ["ai/chat", "ai/reporting"]
+      "pages": [
+        "ai/chat",
+        "ai/reporting"
+      ]
     },
     {
       "group": "ვიდეო გაკვეთილები",
-      "pages": ["tutorials/authorization", "tutorials/upload-dicom"]
+      "pages": [
+        "tutorials/authorization",
+        "tutorials/upload-dicom",
+        "tutorials/სივრცის-სურათის-შეცვლა"
+      ]
     },
     {
       "group": "Testing",
-      "pages": ["test-media"]
+      "pages": [
+        "test-media"
+      ]
     }
   ],
   "footerSocials": {
