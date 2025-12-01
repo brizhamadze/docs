@@ -45,7 +45,8 @@
       "pages": [
         "tutorials/authorization",
         "tutorials/upload-dicom",
-        "tutorials/dicom-ის-გაზიარება"
+        "tutorials/dicom-ის-გაზიარება",
+        "tutorials/სივრცის-სურათის-შეცვლა"
       ]
     },
     {
