@@ -13,108 +13,172 @@
   },
   "navigation": [
     {
-      "group": "🚀 დაწყება",
+      "group": "Getting Started",
+      "icon": "rocket",
       "pages": [
         "getting-started/introduction",
-        "getting-started/login-dashboard",
-        "getting-started/spaces"
+        "getting-started/login-authorization",
+        "getting-started/understanding-spaces"
       ]
     },
     {
-      "group": "👤 ავტორიზაცია და მომხმარებლები",
+      "group": "Search & Discovery",
+      "icon": "magnifying-glass",
       "pages": [
-        "auth/authorization",
-        "auth/space-management",
-        "auth/user-management",
-        "auth/permissions"
+        "search/using-search",
+        "search/search-filters",
+        "search/opening-results"
       ]
     },
     {
-      "group": "📁 პაციენტების მართვა",
+      "group": "Patient Management",
+      "icon": "folder-open",
       "pages": [
-        "patients/folders",
-        "patients/navigation",
-        "patients/uploading",
-        "patients/document-actions"
+        "patients/patient-list-navigation",
+        "patients/folder-organization",
+        "patients/patient-overview"
       ]
     },
     {
-      "group": "🩺 DICOM გამოსახულებები",
+      "group": "Documents & Files",
+      "icon": "file-lines",
       "pages": [
-        "dicom/uploading",
-        "dicom/viewing",
-        "dicom/viewer-tools",
-        "dicom/advanced-features"
-      ]
-    },
-    {
-      "group": "📝 დოკუმენტები და რედაქტირება",
-      "pages": [
+        "documents/uploading-files",
         "documents/editing-reports",
-        "documents/quick-notes",
-        "documents/file-upload"
+        "documents/creating-quick-notes",
+        {
+          "group": "File Actions",
+          "pages": [
+            "documents/file-actions/download-documents",
+            "documents/file-actions/rename-documents",
+            "documents/file-actions/delete-documents"
+          ]
+        }
       ]
     },
     {
-      "group": "🤖 AI ასისტენტი",
+      "group": "Medical Imaging (DICOM)",
+      "icon": "x-ray",
       "pages": [
-        "ai/overview",
-        "ai/chat",
-        "ai/voice-commands",
-        "ai/audio-transcription",
-        "ai/workflows",
-        "ai/custom-prompts",
-        "ai/reporting"
+        "dicom/dicom-overview",
+        "dicom/uploading-dicom-studies",
+        {
+          "group": "DICOM Viewer",
+          "pages": [
+            "dicom/viewer/opening-studies",
+            "dicom/viewer/basic-navigation",
+            "dicom/viewer/zoom-pan",
+            "dicom/viewer/windowing",
+            "dicom/viewer/measurements",
+            "dicom/viewer/advanced-tools"
+          ]
+        },
+        "dicom/dicom-best-practices"
       ]
     },
     {
-      "group": "🎥 სხვა ფუნქციები",
+      "group": "Sharing & Collaboration",
+      "icon": "share-nodes",
       "pages": [
-        "features/video-consultation",
-        "features/personalization",
-        "features/billing"
+        "sharing/sharing-overview",
+        {
+          "group": "Share Methods",
+          "pages": [
+            "sharing/share-methods/share-via-link",
+            "sharing/share-methods/share-via-qr",
+            "sharing/share-methods/share-via-email"
+          ]
+        },
+        {
+          "group": "Receiving Shared Content",
+          "pages": [
+            "sharing/receiving/viewing-shared-files",
+            "sharing/receiving/saving-to-existing-folder",
+            "sharing/receiving/creating-new-folder",
+            "sharing/receiving/downloading-shared-files",
+            {
+              "group": "DICOM Shared Content",
+              "pages": [
+                "sharing/receiving/dicom-shared/view-in-viewer",
+                "sharing/receiving/dicom-shared/download-study"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "group": "📚 ვიდეო გაკვეთილები",
+      "group": "AI Assistant",
+      "icon": "robot",
       "pages": [
-        "tutorials/overview",
-        "tutorials/beginner",
-        "tutorials/intermediate",
-        "tutorials/advanced"
+        "ai/ai-overview",
+        {
+          "group": "AI Chat",
+          "pages": [
+            "ai/chat/starting-chat",
+            "ai/chat/using-context",
+            "ai/chat/chat-commands"
+          ]
+        },
+        {
+          "group": "Voice & Audio",
+          "pages": [
+            "ai/voice/audio-recording",
+            "ai/voice/transcription",
+            "ai/voice/voice-commands"
+          ]
+        },
+        {
+          "group": "AI Workflows",
+          "pages": [
+            "ai/workflows/understanding-workflows",
+            "ai/workflows/installing-workflows",
+            "ai/workflows/running-workflows",
+            "ai/workflows/removing-workflows",
+            {
+              "group": "Available Workflows",
+              "pages": [
+                "ai/workflows/available/radiology-report",
+                "ai/workflows/available/cardiology-questionnaire",
+                "ai/workflows/available/dicom-receiver",
+                "ai/workflows/available/file-receiver",
+                "ai/workflows/available/form-100",
+                "ai/workflows/available/generate-keywords"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "group": "🎬 დამწყებთათვის",
+      "group": "Team & Administration",
+      "icon": "users",
       "pages": [
-        "video-tutorials/login-dashboard",
-        "video-tutorials/upload-view-dicom",
-        "video-tutorials/edit-documents"
+        {
+          "group": "User Management",
+          "pages": [
+            "team/user-management/adding-users",
+            "team/user-management/assigning-roles",
+            "team/user-management/user-permissions"
+          ]
+        },
+        "team/space-management",
+        "team/video-consultation"
       ]
     },
     {
-      "group": "🎬 საშუალო დონე",
+      "group": "Settings & Preferences",
+      "icon": "gear",
       "pages": [
-        "video-tutorials/ai-chat-voice",
-        "video-tutorials/settings-personalization",
-        "video-tutorials/user-billing-management"
-      ]
-    },
-    {
-      "group": "🎬 მოწინავე",
-      "pages": [
-        "video-tutorials/ai-workflows"
-      ]
-    },
-    {
-      "group": "📖 არქივი (ძველი ვიდეოები)",
-      "pages": [
-        "tutorials/authorization",
-        "tutorials/upload-dicom",
-        "tutorials/dicom-ის-გაზიარება",
-        "tutorials/სივრცის-სურათის-შეცვლა",
-        "tutorials/მომხმარებლის-სივრცეში-დამატება",
-        "tutorials/თემის-შეცვლა"
+        {
+          "group": "Personalization",
+          "pages": [
+            "settings/personalization/theme-selection",
+            "settings/personalization/color-customization",
+            "settings/personalization/profile-picture"
+          ]
+        },
+        "settings/billing-information"
       ]
     }
   ],
