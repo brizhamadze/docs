@@ -14,7 +14,19 @@
   "navigation": [
     {
       "group": "Getting Started",
-      "pages": ["getting-started/introduction"]
+      "pages": ["getting-started/introduction", "getting-started/spaces"]
+    },
+    {
+      "group": "Patient Management",
+      "pages": ["patients/folders", "patients/uploading"]
+    },
+    {
+      "group": "Viewing Documents",
+      "pages": ["viewing/documents", "viewing/dicom"]
+    },
+    {
+      "group": "AI Assistant",
+      "pages": ["ai/chat", "ai/reporting"]
     }
   ],
   "footerSocials": {
@@ -22,4 +34,3 @@
     "website": "https://healthtech.dev"
   }
 }
-
