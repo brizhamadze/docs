@@ -1,0 +1,113 @@
+---
+title: 'TEST: YouTube Timestamp Control'
+description: 'Testing interactive timestamp control with YouTube IFrame API'
+---
+
+# YouTube Timestamp Control Test
+
+This is a test page to verify if Mintlify supports YouTube IFrame API for interactive timestamp control.
+
+## Video Embed
+
+<div id="video-container">
+  <iframe
+    id="youtube-player"
+    className="w-full aspect-video rounded-xl"
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ?enablejsapi=1"
+    title="YouTube video player"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Interactive Features
+
+Click on any of the sections below to jump to that timestamp in the video:
+
+<div style={{marginTop: '2rem'}}>
+
+### <span onClick={() => window.seekToTime(0)} style={{cursor: 'pointer', color: '#0D9373', textDecoration: 'underline'}}>Introduction (0:00)</span>
+
+This is the beginning of the video. Click the heading above to jump to the start.
+
+### <span onClick={() => window.seekToTime(15)} style={{cursor: 'pointer', color: '#0D9373', textDecoration: 'underline'}}>First Action (0:15)</span>
+
+Click this heading to jump to 15 seconds into the video.
+
+### <span onClick={() => window.seekToTime(30)} style={{cursor: 'pointer', color: '#0D9373', textDecoration: 'underline'}}>Second Action (0:30)</span>
+
+Click this heading to jump to 30 seconds into the video.
+
+### <span onClick={() => window.seekToTime(45)} style={{cursor: 'pointer', color: '#0D9373', textDecoration: 'underline'}}>Third Action (0:45)</span>
+
+Click this heading to jump to 45 seconds into the video.
+
+</div>
+
+---
+
+## Implementation Details
+
+This page uses:
+- YouTube IFrame API (`enablejsapi=1` parameter)
+- Custom click handlers on headings
+- `window.seekToTime()` function to control playback
+
+<script src="https://www.youtube.com/iframe_api"></script>
+<script dangerouslySetInnerHTML={{__html: `
+  var player;
+  
+  // YouTube IFrame API callback
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('youtube-player', {
+      events: {
+        'onReady': onPlayerReady
+      }
+    });
+  }
+  
+  function onPlayerReady(event) {
+    console.log('YouTube player is ready');
+  }
+  
+  // Seek to specific timestamp
+  window.seekToTime = function(seconds) {
+    console.log('Seeking to:', seconds);
+    if (player && player.seekTo) {
+      player.seekTo(seconds, true);
+      player.playVideo();
+    } else if (player) {
+      // Fallback: try to get player instance
+      setTimeout(function() {
+        if (player && player.seekTo) {
+          player.seekTo(seconds, true);
+          player.playVideo();
+        } else {
+          console.error('Player not ready');
+        }
+      }, 500);
+    } else {
+      console.error('Player not initialized');
+    }
+  }
+  
+  // Initialize API on load
+  if (typeof YT === 'undefined') {
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  } else {
+    onYouTubeIframeAPIReady();
+  }
+`}} />
+
+<Note>
+**Testing Checklist:**
+- [ ] Does clicking a heading rewind the video?
+- [ ] Can you jump between different timestamps?
+- [ ] Does the video auto-play after jumping?
+- [ ] Are there any console errors?
+</Note>
+
