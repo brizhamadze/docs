@@ -185,8 +185,7 @@
       "group": "ვიდეო გაკვეთილები",
       "icon": "video",
       "pages": [
-        "tutorials/თემის-შეცვლა",
-        "test-youtube-timestamps"
+        "tutorials/თემის-შეცვლა"
       ]
     }
   ],
