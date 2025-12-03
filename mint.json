@@ -180,6 +180,13 @@
         },
         "settings/billing-information"
       ]
+    },
+    {
+      "group": "ვიდეო გაკვეთილები",
+      "icon": "video",
+      "pages": [
+        "tutorials/თემის-შეცვლა"
+      ]
     }
   ],
   "footerSocials": {
