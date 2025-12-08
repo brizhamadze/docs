@@ -155,6 +155,12 @@
       "icon": "users",
       "pages": [
         {
+          "group": "გუნდი",
+          "pages": [
+            "team/tornike-tabukashvili"
+          ]
+        },
+        {
           "group": "მომხმარებლების მართვა",
           "pages": [
             "team/user-management/adding-users",
