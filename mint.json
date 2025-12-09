@@ -192,6 +192,22 @@
       ]
     },
     {
+      "group": "კლიენტები",
+      "icon": "handshake",
+      "pages": [
+        "clients/index",
+        {
+          "group": "წარმატების ისტორიები",
+          "pages": [
+            "clients/tbilisi-heart-center",
+            "clients/med-diagnostics",
+            "clients/chaphidze-hospital",
+            "clients/ghia-guli"
+          ]
+        }
+      ]
+    },
+    {
       "group": "კომპანია",
       "icon": "building",
       "pages": [
@@ -209,7 +225,15 @@
       "group": "ბლოგი",
       "icon": "newspaper",
       "pages": [
-        "blog/index"
+        "blog/index",
+        {
+          "group": "პოსტები",
+          "pages": [
+            "blog/healthtech-2024-recap",
+            "blog/ai-in-radiology",
+            "blog/cloud-migration-guide"
+          ]
+        }
       ]
     }
   ],
