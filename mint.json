@@ -203,7 +203,8 @@
             "clients/tbilisi-heart-center",
             "clients/med-diagnostics",
             "clients/chaphidze-hospital",
-            "clients/ghia-guli"
+            "clients/ghia-guli",
+            "clients/consilium-medulla"
           ]
         }
       ]
