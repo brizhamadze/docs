@@ -197,12 +197,21 @@
       "icon": "handshake",
       "pages": [
         "clients/index",
-        "clients/tbilisi-heart-center",
-        "clients/med-diagnostics",
+        "clients/aids-center",
+        "clients/aversi",
+        "clients/batumi-republican-hospital",
         "clients/chaphidze-hospital",
-        "clients/ghia-guli",
         "clients/consilium-medulla",
-        "clients/rukhi-republican-hospital"
+        "clients/ghia-guli",
+        "clients/healthy-core",
+        "clients/khechinashvili",
+        "clients/med-diagnostics",
+        "clients/pineo",
+        "clients/rukhi-republican-hospital",
+        "clients/tbilisi-heart-center",
+        "clients/tbilisi-institute-of-medicine",
+        "clients/tsmu",
+        "clients/veterans-hospital"
       ]
     },
     {
