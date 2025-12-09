@@ -61,7 +61,7 @@ cp /path/to/client-logo.png Radium/RadiumProjects/Tutorials/docs/images/clients/
 
 **Filename Convention:** Use lowercase with hyphens (e.g., `consilium-medulla.mdx`)
 
-**Template Structure:**
+**Template Structure (KEEP IT SIMPLE!):**
 
 ```mdx
 ---
@@ -75,55 +75,42 @@ description: '[One-line description in Georgian]'
 
 ## კლიენტის შესახებ
 
-[Appealing introductory paragraph about the hospital - IN GEORGIAN]
+[Brief paragraph about the hospital based on Google search - IN GEORGIAN. Include: location, specialties, unique approach, years of experience. End with: "Radium-ის Cloud PACS პლატფორმა უზრუნველყოფს კლინიკის სრული რადიოლოგიური ინფრასტრუქტურის მართვას."]
 
-<CardGroup cols={3}>
-  <Card title="[Year/Number]" icon="[icon-name]">
-    **[Statistic Label]**
-  </Card>
-  <Card title="[Number]" icon="[icon-name]">
-    **[Statistic Label]**
-  </Card>
-  <Card title="[Number]" icon="[icon-name]">
-    **[Statistic Label]**
-  </Card>
-</CardGroup>
-
-## HealthTech გადაწყვეტა
-
-[Description of the solution provided - IN GEORGIAN]
-
-### გამოყენებული მოდალითები
-- **CT (კომპიუტერული ტომოგრაფია)**: [Usage details]
-- **X-Ray (რენტგენი)**: [Usage details]
-- **Mammography (მამოგრაფია)**: [Usage details]
-- **Ultrasound (ულტრაბგერა)**: [Usage details]
-
-## შედეგები
+## სტატისტიკა
 
 <CardGroup cols={2}>
-  <Card title="[Number] კვლევა" icon="database">
-    Cloud PACS-ში შენახული
+  <Card title="[X,XXX+]" icon="database">
+    **სულ კვლევა**
   </Card>
-  <Card title="[Number]+ მოდალითი" icon="microscope">
-    ინტეგრირებული სისტემა
+  <Card title="[X] მოწყობილობა" icon="microscope">
+    **დაკავშირებული**
   </Card>
-  <Card title="24/7 წვდომა" icon="cloud">
-    ნებისმიერი ადგილიდან
+  <Card title="[XX+] ექიმი" icon="user-doctor">
+    **იყენებს სისტემას**
   </Card>
-  <Card title="უსაფრთხო" icon="shield">
-    დაშიფრული მონაცემები
+  <Card title="[List modalities]" icon="hospital">
+    **მოდალითები**
   </Card>
 </CardGroup>
-
-## ციტატა
-
-<Note>
-**[Name, Title]**
-
-"[Quote about the service - IN GEORGIAN]"
-</Note>
 ```
+
+**That's it! Keep it simple and clean.**
+
+### Required Information for Each Client:
+
+**Statistics to Collect:**
+1. **Total Studies** - Total number of studies stored in Cloud PACS
+2. **Number of Devices** - How many imaging devices connected
+3. **Number of Doctors** - Doctors actively using the system
+4. **Modalities List** - Comma-separated list (e.g., "CT, X-Ray, MRI, Ultrasound")
+
+**Hospital Information (from Google search):**
+- Full name and location
+- Main specialties
+- Years of experience (if available)
+- Unique approach or philosophy
+- Type of facility (hospital, clinic, diagnostic center)
 
 ### 5. Update Navigation (mint.json)
 
@@ -186,42 +173,46 @@ git push origin main
 ## Writing Guidelines
 
 ### Tone
-- Professional but friendly
-- Focus on partnership and success
-- Emphasize benefits and results
-- Use specific numbers and statistics
+- Professional and concise
+- Focus on facts, not marketing
+- Use specific numbers
+- Keep it brief
 
-### Structure
-1. **Opening paragraph**: Introduce the client and their reputation
-2. **Statistics cards**: Show impressive numbers
-3. **Solution description**: What we provided
-4. **Modalities/Services**: Specific technical details
-5. **Results**: Impact and outcomes
-6. **Quote**: Testimonial from client (when available)
+### Structure (SIMPLE - 2 sections only!)
+1. **კლიენტის შესახებ**: Brief paragraph about the hospital (from Google search)
+2. **სტატისტიკა**: 4 cards with key numbers
 
 ### Example Opening Paragraph
 
 ```
-**[Hospital Name]** არის [description of hospital type] [location]-ში, რომელიც 
-განსაკუთრებულია [special characteristic]. [Years] წლის გამოცდილებით, 
-[Hospital Name] მსახურობს [number]+ პაციენტს წელიწადში და აერთიანებს 
-[specialties]. Radium-ის Cloud PACS პლატფორმა უზრუნველყოფს [key benefit] 
-და [another benefit], რაც საშუალებას აძლევს [outcome].
+**[Hospital Name]** არის [location]-ში მდებარე [type: მულტიპროფილური/სპეციალიზებული] 
+[facility type: სამედიცინო კლინიკა/საავადმყოფო/დიაგნოსტიკური ცენტრი], რომელიც 
+[unique characteristic/specialties]. [Optional: years] წლის გამოცდილებით, კლინიკა 
+[main services or approach]. Radium-ის Cloud PACS პლატფორმა უზრუნველყოფს კლინიკის 
+სრული რადიოლოგიური ინფრასტრუქტურის მართვას.
 ```
+
+### What NOT to Include
+- ❌ Technical infrastructure details
+- ❌ Security and compliance sections
+- ❌ "Why they chose Cloud PACS" sections
+- ❌ Future plans
+- ❌ Detailed modality descriptions
+- ❌ Step-by-step implementation details
+- ❌ Quotes (unless specifically provided by client)
 
 ## Checklist
 
 Before publishing, verify:
 
 - [ ] All text is in Georgian (except filename)
-- [ ] Statistics are accurate
+- [ ] Statistics are accurate (4 cards: Total Studies, Devices, Doctors, Modalities)
+- [ ] Brief hospital description (1 paragraph only)
+- [ ] Logo copied to `images/clients/` folder
 - [ ] Navigation updated in `mint.json`
 - [ ] Client card added to `clients/index.mdx`
-- [ ] Images referenced exist (or use placeholder)
-- [ ] Icons are appropriate
-- [ ] Links work correctly
-- [ ] Content is professional and appealing
-- [ ] Git push uses `required_permissions: ["all"]` if needed
+- [ ] NO excessive sections (keep it simple!)
+- [ ] Git push uses `required_permissions: ["all"]`
 
 ## Common Icons
 
