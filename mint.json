@@ -197,17 +197,12 @@
       "icon": "handshake",
       "pages": [
         "clients/index",
-        {
-          "group": "წარმატების ისტორიები",
-          "pages": [
-            "clients/tbilisi-heart-center",
-            "clients/med-diagnostics",
-            "clients/chaphidze-hospital",
-            "clients/ghia-guli",
-            "clients/consilium-medulla",
-            "clients/rukhi-republican-hospital"
-          ]
-        }
+        "clients/tbilisi-heart-center",
+        "clients/med-diagnostics",
+        "clients/chaphidze-hospital",
+        "clients/ghia-guli",
+        "clients/consilium-medulla",
+        "clients/rukhi-republican-hospital"
       ]
     },
     {
