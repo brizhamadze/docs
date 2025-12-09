@@ -1,0 +1,10 @@
+/* Add padding to card images on clients page */
+.card img {
+  padding: 1.5rem;
+  object-fit: contain;
+}
+
+/* Specific styling for client cards */
+[href^="/clients/"] img {
+  padding: 2rem;
+}
