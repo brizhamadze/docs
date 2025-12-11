@@ -17,7 +17,8 @@
       "group": "დაწყება და ინტერფეისი",
       "icon": "rocket",
       "pages": [
-        "getting-started/index"
+        "getting-started/index",
+        "getting-started/ავტორიზაცია"
       ]
     },
     {
