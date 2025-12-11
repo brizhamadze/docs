@@ -26,7 +26,8 @@
       "group": "ძიება და შედარება",
       "icon": "magnifying-glass",
       "pages": [
-        "search/index"
+        "search/index",
+        "search/ძიება"
       ]
     },
     {
