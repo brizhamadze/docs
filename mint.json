@@ -18,7 +18,8 @@
       "icon": "rocket",
       "pages": [
         "getting-started/index",
-        "getting-started/ავტორიზაცია"
+        "getting-started/ავტორიზაცია",
+        "getting-started/ძირითადი-ინტერფეისი"
       ]
     },
     {
