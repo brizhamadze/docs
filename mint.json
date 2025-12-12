@@ -41,7 +41,8 @@
       "group": "პაციენტები და ფაილები",
       "icon": "folder-open",
       "pages": [
-        "patients-files/index"
+        "patients-files/index",
+        "tutorials/ფოლდერების-მიმოხილვა"
       ]
     },
     {

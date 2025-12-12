@@ -55,3 +55,4 @@ description: '{meta['description']}'
         f.write(content)
 
 print("Index files created successfully")
+
