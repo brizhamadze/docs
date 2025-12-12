@@ -42,7 +42,8 @@
       "icon": "folder-open",
       "pages": [
         "patients-files/index",
-        "tutorials/პაციენტის-საქაღალდის-მართვა"
+        "tutorials/პაციენტის-საქაღალდის-მართვა",
+        "tutorials/აუდიო-ჩანაწერის-შექმნა"
       ]
     },
     {
