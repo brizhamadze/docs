@@ -42,8 +42,6 @@
       "icon": "folder-open",
       "pages": [
         "patients-files/index",
-        "tutorials/პაციენტის-საქაღალდე",
-        "tutorials/საქაღალდეების-მიმოხილვა",
         "tutorials/პაციენტის-საქაღალდის-მართვა"
       ]
     },
