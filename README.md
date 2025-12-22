@@ -236,6 +236,9 @@ Or use Cursor command: `/georgian-text`
 ### Push to Deploy
 
 ```bash
+# Navigate to docs directory (where .git is located)
+cd /Users/brair/Documents/CodeBase/Medspace/Radium/RadiumProjects/Tutorials/docs
+
 git add .
 git commit -m "docs: description of changes"
 git push  # Use required_permissions: ["all"] if via AI
