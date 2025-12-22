@@ -6,10 +6,10 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": "#0D9373"
+    "primary": "#2563EB",
+    "light": "#3B82F6",
+    "dark": "#1E40AF",
+    "anchors": "#2563EB"
   },
   "css": "/custom.css",
   "navigation": [
