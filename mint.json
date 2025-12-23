@@ -23,27 +23,10 @@
       ]
     },
     {
-      "group": "ძიება და შედარება",
-      "icon": "magnifying-glass",
-      "pages": [
-        "search/index",
-        "search/ძიება"
-      ]
-    },
-    {
       "group": "სფეისის მართვა",
       "icon": "users",
       "pages": [
         "space-management/index"
-      ]
-    },
-    {
-      "group": "პაციენტები და ფაილები",
-      "icon": "folder-open",
-      "pages": [
-        "patients-files/index",
-        "tutorials/პაციენტის-საქაღალდის-მართვა",
-        "tutorials/აუდიო-ტრანსკრიპტის-შექმნა"
       ]
     },
     {
@@ -59,20 +42,6 @@
       "pages": [
         "tutorials/qr-კოდის-დაბეჭდვა-და-კვლევის-გაზიარება",
         "tutorials/გაზიარებული-კვლევის-ნახვა"
-      ]
-    },
-    {
-      "group": "AI Workflow-ები",
-      "icon": "bolt",
-      "pages": [
-        "workflows/index"
-      ]
-    },
-    {
-      "group": "AI ჩატი",
-      "icon": "robot",
-      "pages": [
-        "ai-chat/index"
       ]
     },
     {
