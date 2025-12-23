@@ -78,7 +78,6 @@
       "group": "ბლოგი",
       "icon": "newspaper",
       "pages": [
-        "blog/index",
         "blog/qr-dicom-sharing"
       ]
     }
