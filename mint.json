@@ -57,7 +57,9 @@
       "group": "გაზიარება და კომუნიკაცია",
       "icon": "share-nodes",
       "pages": [
-        "sharing/index"
+        "sharing/index",
+        "sharing/sharing-study-qr",
+        "sharing/viewing-shared-study"
       ]
     },
     {
