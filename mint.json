@@ -57,10 +57,10 @@
       "group": "გაზიარება და კომუნიკაცია",
       "icon": "share-nodes",
       "pages": [
-        "sharing/index",
         "sharing/sharing-study-qr",
+        "tutorials/qr-კოდის-დაბეჭდვა-და-კვლევის-გაზიარება",
         "sharing/viewing-shared-study",
-        "tutorials/qr-კოდის-დაბეჭდვა-და-კვლევის-გაზიარება"
+        "tutorials/გაზიარებული-კვლევის-ნახვა"
       ]
     },
     {
