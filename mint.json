@@ -13,15 +13,9 @@
     "anchors": "#2563EB"
   },
   "css": "/custom.css",
-  "topbarLinks": [
-    {
-      "name": "შესვლა",
-      "url": "https://app.medspace.me"
-    }
-  ],
   "topbarCtaButton": {
-    "name": "დაიწყე უფასოდ",
-    "url": "https://app.medspace.me/signup"
+    "name": "შესვლა",
+    "url": "https://app.medspace.me"
   },
   "tabs": [
     {
