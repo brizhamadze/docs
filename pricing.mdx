@@ -1,0 +1,318 @@
+---
+title: 'ფასები - MedSpace'
+description: 'გამჭვირვალე და მოქნილი საფასო გეგმები თქვენი კლინიკის საჭიროებებისთვის'
+mode: 'custom'
+---
+
+<div className="w-full">
+  {/* Header */}
+  <div className="max-w-6xl mx-auto px-4 py-16 text-center">
+    <h1 className="text-4xl md:text-5xl font-bold mb-6">
+      მარტივი და გამჭვირვალე ფასები
+    </h1>
+    <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-8">
+      აირჩიეთ გეგმა, რომელიც შეესაბამება თქვენი კლინიკის საჭიროებებს
+    </p>
+    <p className="text-sm text-gray-500 dark:text-gray-400">
+      ✓ 14 დღიანი უფასო გამოცდა ყველა გეგმაზე • ✓ საკრედიტო ბარათი არ არის საჭირო
+    </p>
+  </div>
+
+  {/* Pricing Cards */}
+  <div className="max-w-7xl mx-auto px-4 pb-20">
+    <div className="grid md:grid-cols-3 gap-8">
+      
+      {/* Starter Plan */}
+      <div className="border-2 border-gray-200 dark:border-gray-700 rounded-2xl p-8 hover:border-blue-500 dark:hover:border-blue-500 transition-all hover:shadow-xl">
+        <div className="text-center mb-6">
+          <h3 className="text-2xl font-bold mb-2">Starter</h3>
+          <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">მცირე კლინიკებისთვის</p>
+          <div className="mb-4">
+            <span className="text-4xl font-bold">49€</span>
+            <span className="text-gray-500 dark:text-gray-400">/თვე</span>
+          </div>
+        </div>
+
+        <ul className="space-y-4 mb-8">
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">100 GB Cloud მეხსიერება</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">5 მომხმარებელი</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">DICOM მნახველი</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">ძირითადი AI ფუნქციები</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">QR კოდით გაზიარება</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">Email მხარდაჭერა</span>
+          </li>
+        </ul>
+
+        <a 
+          href="https://app.medspace.me/signup?plan=starter" 
+          className="block w-full text-center border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold py-3 rounded-lg transition-colors"
+        >
+          დაიწყე უფასოდ
+        </a>
+      </div>
+
+      {/* Professional Plan (Featured) */}
+      <div className="border-2 border-blue-600 rounded-2xl p-8 relative shadow-xl transform md:scale-105">
+        <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-semibold">
+          რეკომენდირებული
+        </div>
+        
+        <div className="text-center mb-6">
+          <h3 className="text-2xl font-bold mb-2">Professional</h3>
+          <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">საშუალო და დიდი კლინიკებისთვის</p>
+          <div className="mb-4">
+            <span className="text-4xl font-bold">149€</span>
+            <span className="text-gray-500 dark:text-gray-400">/თვე</span>
+          </div>
+        </div>
+
+        <ul className="space-y-4 mb-8">
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">500 GB Cloud მეხსიერება</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">20 მომხმარებელი</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">DICOM მნახველი + გაფართოებული ინსტრუმენტები</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">სრული AI ფუნქციონალი</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">AI Workflows</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">ხმის ტრანსკრიპცია</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">პრიორიტეტული მხარდაჭერა</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">API წვდომა</span>
+          </li>
+        </ul>
+
+        <a 
+          href="https://app.medspace.me/signup?plan=professional" 
+          className="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition-colors shadow-lg"
+        >
+          დაიწყე უფასოდ
+        </a>
+      </div>
+
+      {/* Enterprise Plan */}
+      <div className="border-2 border-gray-200 dark:border-gray-700 rounded-2xl p-8 hover:border-blue-500 dark:hover:border-blue-500 transition-all hover:shadow-xl">
+        <div className="text-center mb-6">
+          <h3 className="text-2xl font-bold mb-2">Enterprise</h3>
+          <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">მსხვილი ორგანიზაციებისთვის</p>
+          <div className="mb-4">
+            <span className="text-4xl font-bold">Custom</span>
+          </div>
+        </div>
+
+        <ul className="space-y-4 mb-8">
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">უსაზღვრო მეხსიერება</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">უსაზღვრო მომხმარებლები</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">ყველა Professional ფუნქცია</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">მორგებული AI Workflows</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">On-premise განლაგების ვარიანტი</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">დედიკირებული მხარდაჭერა</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">SLA გარანტია</span>
+          </li>
+          <li className="flex items-start">
+            <span className="text-green-500 mr-2">✓</span>
+            <span className="text-sm">სასწავლო პროგრამა</span>
+          </li>
+        </ul>
+
+        <a 
+          href="/contact" 
+          className="block w-full text-center border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold py-3 rounded-lg transition-colors"
+        >
+          დაგვიკავშირდით
+        </a>
+      </div>
+    </div>
+  </div>
+
+  {/* Feature Comparison */}
+  <div className="bg-gray-50 dark:bg-gray-900 py-16">
+    <div className="max-w-6xl mx-auto px-4">
+      <h2 className="text-3xl font-bold text-center mb-12">
+        დეტალური შედარება
+      </h2>
+
+      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden">
+        <table className="w-full">
+          <thead className="bg-gray-100 dark:bg-gray-700">
+            <tr>
+              <th className="text-left py-4 px-6 font-semibold">ფუნქცია</th>
+              <th className="text-center py-4 px-6 font-semibold">Starter</th>
+              <th className="text-center py-4 px-6 font-semibold">Professional</th>
+              <th className="text-center py-4 px-6 font-semibold">Enterprise</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
+            <tr>
+              <td className="py-4 px-6">მეხსიერება</td>
+              <td className="text-center py-4 px-6">100 GB</td>
+              <td className="text-center py-4 px-6">500 GB</td>
+              <td className="text-center py-4 px-6">უსაზღვრო</td>
+            </tr>
+            <tr className="bg-gray-50 dark:bg-gray-800/50">
+              <td className="py-4 px-6">მომხმარებლები</td>
+              <td className="text-center py-4 px-6">5</td>
+              <td className="text-center py-4 px-6">20</td>
+              <td className="text-center py-4 px-6">უსაზღვრო</td>
+            </tr>
+            <tr>
+              <td className="py-4 px-6">DICOM მნახველი</td>
+              <td className="text-center py-4 px-6">✓</td>
+              <td className="text-center py-4 px-6">✓</td>
+              <td className="text-center py-4 px-6">✓</td>
+            </tr>
+            <tr className="bg-gray-50 dark:bg-gray-800/50">
+              <td className="py-4 px-6">AI ჩატი</td>
+              <td className="text-center py-4 px-6">ძირითადი</td>
+              <td className="text-center py-4 px-6">✓</td>
+              <td className="text-center py-4 px-6">✓</td>
+            </tr>
+            <tr>
+              <td className="py-4 px-6">AI Workflows</td>
+              <td className="text-center py-4 px-6">-</td>
+              <td className="text-center py-4 px-6">✓</td>
+              <td className="text-center py-4 px-6">მორგებული</td>
+            </tr>
+            <tr className="bg-gray-50 dark:bg-gray-800/50">
+              <td className="py-4 px-6">ხმის ტრანსკრიპცია</td>
+              <td className="text-center py-4 px-6">-</td>
+              <td className="text-center py-4 px-6">✓</td>
+              <td className="text-center py-4 px-6">✓</td>
+            </tr>
+            <tr>
+              <td className="py-4 px-6">API წვდომა</td>
+              <td className="text-center py-4 px-6">-</td>
+              <td className="text-center py-4 px-6">✓</td>
+              <td className="text-center py-4 px-6">✓</td>
+            </tr>
+            <tr className="bg-gray-50 dark:bg-gray-800/50">
+              <td className="py-4 px-6">მხარდაჭერა</td>
+              <td className="text-center py-4 px-6">Email</td>
+              <td className="text-center py-4 px-6">პრიორიტეტული</td>
+              <td className="text-center py-4 px-6">დედიკირებული</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  {/* FAQ Section */}
+  <div className="max-w-4xl mx-auto px-4 py-16">
+    <h2 className="text-3xl font-bold text-center mb-12">
+      ხშირად დასმული კითხვები
+    </h2>
+
+    <div className="space-y-6">
+      <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-6">
+        <h3 className="font-bold text-lg mb-2">შემიძლია გადავიდე სხვა გეგმაზე შემდეგ?</h3>
+        <p className="text-gray-600 dark:text-gray-300">
+          დიახ, თქვენ შეგიძლიათ ნებისმიერ დროს შეცვალოთ საფასო გეგმა თქვენი საჭიროებების მიხედვით.
+        </p>
+      </div>
+
+      <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-6">
+        <h3 className="font-bold text-lg mb-2">რა ხდება თუ გავცდები მეხსიერების ლიმიტს?</h3>
+        <p className="text-gray-600 dark:text-gray-300">
+          თქვენ მიიღებთ შეტყობინებას და შეგიძლიათ განაახლოთ გეგმა ან შეიძინოთ დამატებითი მეხსიერება.
+        </p>
+      </div>
+
+      <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-6">
+        <h3 className="font-bold text-lg mb-2">უსაფრთხოა ჩემი მონაცემები?</h3>
+        <p className="text-gray-600 dark:text-gray-300">
+          დიახ, ყველა მონაცემი დაშიფრულია და ინახება უსაფრთხო ღრუბლოვან ინფრასტრუქტურაში. ჩვენ ვართ HIPAA-თან თავსებადები.
+        </p>
+      </div>
+
+      <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-6">
+        <h3 className="font-bold text-lg mb-2">გთავაზობთ ფასდაკლებას წლიურ გადახდაზე?</h3>
+        <p className="text-gray-600 dark:text-gray-300">
+          დიახ, წლიურ გადახდაზე გვაქვს 20% ფასდაკლება. დაგვიკავშირდით დეტალებისთვის.
+        </p>
+      </div>
+
+      <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-6">
+        <h3 className="font-bold text-lg mb-2">შემიძლია გავაუქმო ნებისმიერ დროს?</h3>
+        <p className="text-gray-600 dark:text-gray-300">
+          დიახ, არ არის გრძელვადიანი ხელშეკრულებები. შეგიძლიათ გააუქმოთ ნებისმიერ დროს.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  {/* CTA */}
+  <div className="bg-blue-600 text-white py-16">
+    <div className="max-w-4xl mx-auto px-4 text-center">
+      <h2 className="text-3xl md:text-4xl font-bold mb-6">
+        კითხვები გაქვთ?
+      </h2>
+      <p className="text-xl mb-8 opacity-90">
+        დაგვიკავშირდით და ჩვენი გუნდი დაგეხმარებათ სწორი გეგმის არჩევაში
+      </p>
+      <a 
+        href="/contact" 
+        className="inline-block bg-white text-blue-600 hover:bg-gray-100 font-semibold px-10 py-4 rounded-lg text-lg transition-colors shadow-lg"
+      >
+        დაგვიკავშირდით
+      </a>
+    </div>
+  </div>
+</div>
+
