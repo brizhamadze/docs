@@ -13,18 +13,16 @@
     "anchors": "#2563EB"
   },
   "css": "/custom.css",
-  "navbar": [
+  "topbarLinks": [
     {
-      "label": "შესვლა",
-      "href": "https://app.medspace.me",
-      "icon": "arrow-right-to-bracket"
-    },
-    {
-      "label": "დაიწყე უფასოდ",
-      "href": "https://app.medspace.me/signup",
-      "icon": "rocket"
+      "name": "შესვლა",
+      "url": "https://app.medspace.me"
     }
   ],
+  "topbarCtaButton": {
+    "name": "დაიწყე უფასოდ",
+    "url": "https://app.medspace.me/signup"
+  },
   "tabs": [
     {
       "name": "მთავარი",
