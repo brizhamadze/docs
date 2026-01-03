@@ -26,7 +26,8 @@
       "href": "https://app.medspace.me/signup"
     }
   },
-  "tabs": [
+  "navigation": {
+    "tabs": [
     {
       "tab": "მთავარი",
       "pages": [
@@ -125,7 +126,8 @@
         "blog/qr-dicom-sharing"
       ]
     }
-  ],
+  ]
+  },
   "footerSocials": {
     "github": "https://github.com/brizhamadze",
     "website": "https://healthtech.dev"
