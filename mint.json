@@ -1,4 +1,5 @@
 {
+  "$schema": "https://mintlify.com/schema.json",
   "name": "MedSpace",
   "logo": {
     "light": "/logo/light.svg",
@@ -12,122 +13,132 @@
     "anchors": "#2563EB"
   },
   "css": "/custom.css",
-  "navbar": {
-    "links": [
-      {
-        "label": "შესვლა",
-        "href": "https://app.medspace.me",
-        "icon": "arrow-right-to-bracket"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "დაიწყე უფასოდ",
-      "href": "https://app.medspace.me/signup"
-    }
-  },
-  "navigation": {
-    "tabs": [
+  "navbar": [
     {
-      "tab": "მთავარი",
+      "label": "შესვლა",
+      "href": "https://app.medspace.me",
+      "icon": "arrow-right-to-bracket"
+    },
+    {
+      "label": "დაიწყე უფასოდ",
+      "href": "https://app.medspace.me/signup",
+      "icon": "rocket"
+    }
+  ],
+  "tabs": [
+    {
+      "name": "მთავარი",
+      "url": "home"
+    },
+    {
+      "name": "დოკუმენტაცია",
+      "url": "docs"
+    },
+    {
+      "name": "ფასები",
+      "url": "pricing"
+    },
+    {
+      "name": "კონტაქტი",
+      "url": "contact"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "მთავარი",
       "pages": [
         "home"
       ]
     },
     {
-      "tab": "დოკუმენტაცია",
-      "groups": [
-        {
-          "group": "დაწყება და ინტერფეისი",
-          "icon": "rocket",
-          "pages": [
-            "getting-started/index",
-            "getting-started/ავტორიზაცია",
-            "getting-started/ძირითადი-ინტერფეისი"
-          ]
-        },
-        {
-          "group": "ძიება",
-          "icon": "magnifying-glass",
-          "pages": [
-            "search/index",
-            "search/ძიება"
-          ]
-        },
-        {
-          "group": "პაციენტები და ფაილები",
-          "icon": "folder-open",
-          "pages": [
-            "patients-files/index"
-          ]
-        },
-        {
-          "group": "სფეისის მართვა",
-          "icon": "users",
-          "pages": [
-            "space-management/index"
-          ]
-        },
-        {
-          "group": "DICOM მნახველი",
-          "icon": "heart-pulse",
-          "pages": [
-            "dicom-viewer/index"
-          ]
-        },
-        {
-          "group": "გაზიარება და კომუნიკაცია",
-          "icon": "share-nodes",
-          "pages": [
-            "sharing/index"
-          ]
-        },
-        {
-          "group": "AI Workflow-ები",
-          "icon": "bolt",
-          "pages": [
-            "workflows/index"
-          ]
-        },
-        {
-          "group": "AI ჩატი",
-          "icon": "robot",
-          "pages": [
-            "ai-chat/index"
-          ]
-        },
-        {
-          "group": "ვიდეო ტუტორიალები",
-          "icon": "video",
-          "pages": [
-            "tutorials/qr-კოდის-დაბეჭდვა-და-კვლევის-გაზიარება",
-            "tutorials/გაზიარებული-კვლევის-ნახვა",
-            "tutorials/პაციენტის-საქაღალდის-მართვა",
-            "tutorials/აუდიო-ტრანსკრიპტის-შექმნა"
-          ]
-        }
+      "group": "დაწყება და ინტერფეისი",
+      "icon": "rocket",
+      "pages": [
+        "getting-started/index",
+        "getting-started/ავტორიზაცია",
+        "getting-started/ძირითადი-ინტერფეისი"
       ]
     },
     {
-      "tab": "ფასები",
+      "group": "ძიება",
+      "icon": "magnifying-glass",
+      "pages": [
+        "search/index",
+        "search/ძიება"
+      ]
+    },
+    {
+      "group": "პაციენტები და ფაილები",
+      "icon": "folder-open",
+      "pages": [
+        "patients-files/index"
+      ]
+    },
+    {
+      "group": "სფეისის მართვა",
+      "icon": "users",
+      "pages": [
+        "space-management/index"
+      ]
+    },
+    {
+      "group": "DICOM მნახველი",
+      "icon": "heart-pulse",
+      "pages": [
+        "dicom-viewer/index"
+      ]
+    },
+    {
+      "group": "გაზიარება და კომუნიკაცია",
+      "icon": "share-nodes",
+      "pages": [
+        "sharing/index"
+      ]
+    },
+    {
+      "group": "AI Workflow-ები",
+      "icon": "bolt",
+      "pages": [
+        "workflows/index"
+      ]
+    },
+    {
+      "group": "AI ჩატი",
+      "icon": "robot",
+      "pages": [
+        "ai-chat/index"
+      ]
+    },
+    {
+      "group": "ვიდეო ტუტორიალები",
+      "icon": "video",
+      "pages": [
+        "tutorials/qr-კოდის-დაბეჭდვა-და-კვლევის-გაზიარება",
+        "tutorials/გაზიარებული-კვლევის-ნახვა",
+        "tutorials/პაციენტის-საქაღალდის-მართვა",
+        "tutorials/აუდიო-ტრანსკრიპტის-შექმნა"
+      ]
+    },
+    {
+      "group": "ფასები",
       "pages": [
         "pricing"
       ]
     },
     {
-      "tab": "კონტაქტი",
+      "group": "კონტაქტი",
       "pages": [
         "contact"
       ]
     },
     {
-      "tab": "ბლოგი",
+      "group": "ბლოგი",
+      "icon": "newspaper",
       "pages": [
         "blog/qr-dicom-sharing"
       ]
     }
-  ]
-  },
+  ],
   "footerSocials": {
     "github": "https://github.com/brizhamadze",
     "website": "https://healthtech.dev"
