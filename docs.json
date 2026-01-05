@@ -11,8 +11,7 @@
   "colors": {
     "primary": "#2563EB",
     "light": "#3B82F6",
-    "dark": "#1E40AF",
-    "anchors": "#2563EB"
+    "dark": "#1E40AF"
   },
   "css": "/custom.css",
   "topbarCtaButton": {
