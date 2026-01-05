@@ -28,6 +28,10 @@
       "url": "dokumentacia"
     },
     {
+      "name": "ბლოგი",
+      "url": "blog"
+    },
+    {
       "name": "გუნდი",
       "url": "team"
     },
@@ -126,9 +130,8 @@
     },
     {
       "group": "ბლოგი",
-      "icon": "newspaper",
       "pages": [
-        "blog/qr-dicom-sharing"
+        "blog"
       ]
     }
   ],
