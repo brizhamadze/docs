@@ -28,8 +28,8 @@
       "url": "docs"
     },
     {
-      "name": "ფასები",
-      "url": "pricing"
+      "name": "გუნდი",
+      "url": "team"
     },
     {
       "name": "კონტაქტი",
@@ -113,9 +113,9 @@
       ]
     },
     {
-      "group": "ფასები",
+      "group": "გუნდი",
       "pages": [
-        "pricing"
+        "team"
       ]
     },
     {
