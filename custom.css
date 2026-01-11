@@ -9,6 +9,11 @@
   padding: 2rem;
 }
 
+/* Hide navigation tabs bar */
+.nav-tabs {
+  display: none !important;
+}
+
 
 
 
