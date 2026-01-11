@@ -18,16 +18,6 @@
     "name": "შესვლა",
     "url": "https://app.medspace.me"
   },
-  "tabs": [
-    {
-      "name": "დოკუმენტაცია",
-      "url": "index"
-    },
-    {
-      "name": "ბლოგი",
-      "url": "blog/index"
-    }
-  ],
   "navigation": [
     {
       "group": "შესავალი",
