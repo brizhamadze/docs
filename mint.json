@@ -46,7 +46,8 @@
       "group": "პაციენტები და ფაილები",
       "icon": "folder-open",
       "pages": [
-        "patients-files/index"
+        "patients-files/index",
+        "tutorials/patient-folder-management"
       ]
     },
     {
@@ -67,7 +68,9 @@
       "group": "გაზიარება და კომუნიკაცია",
       "icon": "share-nodes",
       "pages": [
-        "sharing/index"
+        "sharing/index",
+        "tutorials/qr-sharing",
+        "tutorials/view-shared-study"
       ]
     },
     {
@@ -81,16 +84,7 @@
       "group": "AI ჩატი",
       "icon": "robot",
       "pages": [
-        "ai-chat/index"
-      ]
-    },
-    {
-      "group": "ვიდეო ტუტორიალები",
-      "icon": "video",
-      "pages": [
-        "tutorials/qr-sharing",
-        "tutorials/view-shared-study",
-        "tutorials/patient-folder-management",
+        "ai-chat/index",
         "tutorials/audio-transcript"
       ]
     },
