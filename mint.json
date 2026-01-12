@@ -38,23 +38,14 @@
       "group": "ძიება",
       "icon": "magnifying-glass",
       "pages": [
-        "search/index",
-        "search/search-guide"
+        "search/index"
       ]
     },
     {
       "group": "პაციენტები და ფაილები",
       "icon": "folder-open",
       "pages": [
-        "patients-files/index",
-        "tutorials/patient-folder-management"
-      ]
-    },
-    {
-      "group": "სფეისის მართვა",
-      "icon": "users",
-      "pages": [
-        "space-management/index"
+        "patients-files/index"
       ]
     },
     {
@@ -74,26 +65,17 @@
       ]
     },
     {
-      "group": "AI Workflow-ები",
-      "icon": "bolt",
-      "pages": [
-        "workflows/index"
-      ]
-    },
-    {
       "group": "AI ჩატი",
       "icon": "robot",
       "pages": [
-        "ai-chat/index",
-        "tutorials/audio-transcript"
+        "ai-chat/index"
       ]
     },
     {
       "group": "ბლოგი",
       "icon": "newspaper",
       "pages": [
-        "blog/index",
-        "blog/qr-dicom-sharing"
+        "blog/index"
       ]
     }
   ],
