@@ -33,7 +33,9 @@
       "icon": "plus",
       "pages": [
         "tutorials/create-folder",
+        "tutorials/rename-folder",
         "tutorials/upload-files",
+        "tutorials/upload-dicom",
         "tutorials/record-audio"
       ]
     },
