@@ -14,14 +14,14 @@
   display: none !important;
 }
 
-/* Remove placeholder pattern background behind Frame images */
-figure, [class*="frame"], [class*="Frame"] {
+/* Remove Frame border, background and rounded corners */
+figure {
+  border: none !important;
+  border-radius: 0 !important;
   background: none !important;
   background-image: none !important;
-}
-
-figure img, [class*="frame"] img, [class*="Frame"] img {
-  background: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
 }
 
 
