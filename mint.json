@@ -22,16 +22,51 @@
     {
       "group": "შესავალი",
       "pages": [
-        "index"
-      ]
-    },
-    {
-      "group": "დაწყება და ინტერფეისი",
-      "icon": "rocket",
-      "pages": [
+        "index",
         "getting-started/index",
         "getting-started/authentication",
         "getting-started/main-interface"
+      ]
+    },
+    {
+      "group": "შექმნა",
+      "icon": "plus",
+      "pages": [
+        "tutorials/create-folder",
+        "tutorials/upload-files",
+        "tutorials/record-audio"
+      ]
+    },
+    {
+      "group": "ნახვა",
+      "icon": "eye",
+      "pages": [
+        "tutorials/view-files",
+        "tutorials/view-recordings",
+        "tutorials/view-documents"
+      ]
+    },
+    {
+      "group": "გაზიარება",
+      "icon": "share-nodes",
+      "pages": [
+        "sharing/index",
+        "tutorials/qr-sharing",
+        "tutorials/view-shared-study"
+      ]
+    },
+    {
+      "group": "წაშლა",
+      "icon": "trash",
+      "pages": [
+        "tutorials/delete"
+      ]
+    },
+    {
+      "group": "AI Workflow",
+      "icon": "wand-magic-sparkles",
+      "pages": [
+        "workflows/index"
       ]
     },
     {
@@ -53,22 +88,6 @@
       "icon": "heart-pulse",
       "pages": [
         "dicom-viewer/index"
-      ]
-    },
-    {
-      "group": "გაზიარება და კომუნიკაცია",
-      "icon": "share-nodes",
-      "pages": [
-        "sharing/index",
-        "tutorials/qr-sharing",
-        "tutorials/view-shared-study"
-      ]
-    },
-    {
-      "group": "AI Workflow",
-      "icon": "wand-magic-sparkles",
-      "pages": [
-        "workflows/index"
       ]
     },
     {
