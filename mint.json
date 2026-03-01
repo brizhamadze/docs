@@ -29,46 +29,42 @@
       ]
     },
     {
-      "group": "შექმნა",
-      "icon": "plus",
+      "group": "საქაღალდეები",
+      "icon": "folder-open",
       "pages": [
-        "tutorials/create-folder",
-        "tutorials/rename-folder",
-        "tutorials/upload-files",
-        "tutorials/upload-dicom",
-        "tutorials/record-audio"
+        "patients/index",
+        "patients/create-folder",
+        "patients/rename-folder",
+        "patients/upload-files",
+        "patients/upload-dicom",
+        "patients/delete"
       ]
     },
     {
-      "group": "ნახვა",
-      "icon": "eye",
+      "group": "ფაილები",
+      "icon": "file",
       "pages": [
-        "tutorials/view-files",
-        "tutorials/view-recordings",
-        "tutorials/view-documents"
+        "patients/view-files",
+        "patients/view-documents",
+        "dicom/index"
       ]
     },
     {
       "group": "გაზიარება",
       "icon": "share-nodes",
       "pages": [
-        "sharing/index",
-        "tutorials/qr-sharing",
-        "tutorials/view-shared-study"
+        "sharing/send",
+        "sharing/received"
       ]
     },
     {
-      "group": "წაშლა",
-      "icon": "trash",
+      "group": "AI",
+      "icon": "robot",
       "pages": [
-        "tutorials/delete"
-      ]
-    },
-    {
-      "group": "AI Workflow",
-      "icon": "wand-magic-sparkles",
-      "pages": [
-        "workflows/index"
+        "ai/chat",
+        "ai/record-audio",
+        "ai/view-recordings",
+        "ai/workflows"
       ]
     },
     {
@@ -76,27 +72,6 @@
       "icon": "magnifying-glass",
       "pages": [
         "search/index"
-      ]
-    },
-    {
-      "group": "პაციენტები და ფაილები",
-      "icon": "folder-open",
-      "pages": [
-        "patients-files/index"
-      ]
-    },
-    {
-      "group": "DICOM მნახველი",
-      "icon": "heart-pulse",
-      "pages": [
-        "dicom-viewer/index"
-      ]
-    },
-    {
-      "group": "AI ჩატი",
-      "icon": "robot",
-      "pages": [
-        "ai-chat/index"
       ]
     },
     {
