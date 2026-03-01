@@ -45,8 +45,13 @@
       "icon": "file",
       "pages": [
         "patients/view-files",
+        "patients/view-recordings",
         "patients/view-documents",
-        "dicom/index"
+        "dicom/index",
+        "patients/download",
+        "patients/rename-file",
+        "patients/delete-file",
+        "patients/share-file"
       ]
     },
     {
