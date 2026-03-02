@@ -24,6 +24,11 @@ figure {
   padding: 0 !important;
 }
 
+/* Disable tap-to-zoom on images (broken on mobile) */
+figure img {
+  pointer-events: none;
+}
+
 
 
 
