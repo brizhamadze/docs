@@ -23,7 +23,6 @@
       "group": "შესავალი",
       "pages": [
         "index",
-        "getting-started/index",
         "getting-started/authentication",
         "getting-started/main-interface"
       ]
@@ -44,6 +43,7 @@
       "group": "ფაილები",
       "icon": "file",
       "pages": [
+        "files/index",
         "patients/download",
         "patients/rename-file",
         "patients/delete-file"
