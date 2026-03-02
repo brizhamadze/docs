@@ -64,10 +64,8 @@
         "group": "AI",
         "icon": "robot",
         "pages": [
-          "ai/chat",
-          "ai/record-audio",
-          "ai/view-recordings",
-          "ai/workflows"
+          "ai/setup",
+          "ai/radiology-report"
         ]
       },
       {
